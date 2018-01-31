@@ -1,0 +1,24 @@
+/*Hacemos que el 'body' tenga una imagen de fondo*/
+
+
+
+body  {
+background-size:cover;/*que la imagen ocupe toda la pagina*/ /*añadiimos transparencia a la imagen de fondo*/
+background-image: linear-gradient(to bottom,rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(../figuras/bosque.jpg); }
+
+
+/*establecemos el formato para h3, h4 y p*/
+
+
+
+
+h3 {color:#e50d67;}
+h4 {color:#f74a92;}
+h5 {color:#f74a92;}
+p {color:white; font-size:12pt; font-family:"Verdana", sans-serif;}
+/*definimos la clase 'center' para las tablas*/
+
+table.center { 
+    margin-left:auto;
+    margin-right:auto;
+  }
